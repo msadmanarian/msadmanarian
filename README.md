@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════ -->
@@ -65,6 +64,7 @@ class SadmanArian:
 <!--                   TECH STACK                           -->
 <!-- ═══════════════════════════════════════════════════════ -->
 
+## 🛠️ Tech Stack & Tools
 
 <div align="center">
 
@@ -102,7 +102,7 @@ class SadmanArian:
 <!--                   GITHUB STATS                         -->
 <!-- ═══════════════════════════════════════════════════════ -->
 
-
+## 📊 GitHub Analytics
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=msadmanarian&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9"/>
@@ -119,6 +119,7 @@ class SadmanArian:
 <!--                   TROPHIES                             -->
 <!-- ═══════════════════════════════════════════════════════ -->
 
+## 🏆 GitHub Trophies
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=msadmanarian&theme=nord&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="GitHub Trophies"/>
@@ -130,6 +131,7 @@ class SadmanArian:
 <!--                   FEATURED PROJECTS                    -->
 <!-- ═══════════════════════════════════════════════════════ -->
 
+## 🚀 Featured Projects
 
 <div align="center">
 
@@ -148,6 +150,8 @@ class SadmanArian:
 <!-- ═══════════════════════════════════════════════════════ -->
 <!--                   RESEARCH                             -->
 <!-- ═══════════════════════════════════════════════════════ -->
+
+## 📚 Current Research
 
 <div align="center">
 
@@ -172,6 +176,7 @@ class SadmanArian:
 <!--                   ACTIVITY GRAPH                       -->
 <!-- ═══════════════════════════════════════════════════════ -->
 
+## 📈 Contribution Activity
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=msadmanarian&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
@@ -183,6 +188,7 @@ class SadmanArian:
 <!--                   SNAKE                                -->
 <!-- ═══════════════════════════════════════════════════════ -->
 
+## 🐍 Contribution Snake
 
 <div align="center">
   <picture>
@@ -192,7 +198,7 @@ class SadmanArian:
   </picture>
 </div>
 
-> ⚙️ *The snake updates automatically every day – see setup guide below.*
+> ⚙️ *To enable the snake animation, add a GitHub Actions workflow — see setup guide below.*
 
 ---
 
@@ -200,6 +206,7 @@ class SadmanArian:
 <!--                   CONNECT                              -->
 <!-- ═══════════════════════════════════════════════════════ -->
 
+## 🌐 Connect With Me
 
 <div align="center">
 
@@ -218,6 +225,7 @@ class SadmanArian:
 
 <div align="center">
 
+### 💬 Dev Philosophy
 
 > *"First, solve the problem. Then, write the code."* — John Johnson
 
@@ -229,57 +237,40 @@ class SadmanArian:
 
 ---
 
-<!-- ════════════════════════════════════════════════════════════════ -->
-<!-- 🐍 ADVANCED SNAKE SETUP (copy this exactly)                     -->
-<!-- ════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--         🐍 SNAKE SETUP GUIDE (READ & DELETE)           -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--
+TO ENABLE THE SNAKE ANIMATION:
 
-## 🔧 Enable the Snake Animation (One‑Time Setup)
+1. Create this file in your profile repo:
+   .github/workflows/snake.yml
 
-To make the snake eat **your real contribution graph**, add the following workflow file in your profile repo:
+2. Paste this content:
 
-**File path:** `.github/workflows/snake.yml`
-
-```yaml
-name: Generate Snake Animation
-
+name: Generate Snake
 on:
-  schedule:
-    - cron: "0 0 * * *"      # runs daily at midnight UTC
-  workflow_dispatch:         # allows manual trigger from Actions tab
+  schedule: [{ cron: "0 0 * * *" }]
+  workflow_dispatch:
   push:
-    branches: [ main ]
-
-permissions:
-  contents: write            # important – lets the action push to the 'output' branch
-
+    branches: [main]
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
+      - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Deploy to 'output' branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          keep_files: false
-          commit_message: "🐍 update snake animation [skip ci]"
-```
-
+3. Run it once manually from Actions tab.
+   Snake will update daily after that! 🎉
+-->
