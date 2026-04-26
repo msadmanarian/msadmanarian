@@ -1,73 +1,100 @@
-name: Snake 🐍
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Sadman%20Arian&fontSize=52&fontColor=e2e8f0&fontAlignY=42&desc=Computer%20Science%20%26%20Engineering%20·%20AIUB%20Bangladesh&descAlignY=62&descSize=15&descColor=64748b&animation=fadeIn" width="100%"/>
 
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches: [main]
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=15&duration=4000&pause=1200&color=64748B&center=true&vCenter=true&width=480&lines=Building+things+that+think+and+render.;Researching+multi-robot+path+planning.;Writing+clean+C%2B%2B%2C+Python%2C+and+PHP.;Based+in+Dhaka+%E2%80%94+open+to+collaboration." alt="typing"/>
+</p>
 
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
+<br/>
 
-    steps:
-      - name: Generate contribution snake (light + dark)
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?color_snake=6B4423&color_dots[0]=161b22&color_dots[1]=2d3a1e&color_dots[2]=4a6128&color_dots[3]=6b8e3a&color_dots[4]=8fad52&color_empty=0d1117
-            dist/github-snake-dark.svg?color_snake=8B6914&color_dots[0]=161b22&color_dots[1]=3b2f0e&color_dots[2]=5c4a1a&color_dots[3]=8c6e24&color_dots[4]=c4a040&color_empty=0d1117
+---
 
-      - name: Inject score counter into snake SVG
-        run: |
-          python3 - <<'EOF'
-          import re, os
+I'm a final-year CSE student at **American International University-Bangladesh**, focused on applied AI, computer graphics, and systems programming. Currently co-authoring an IEEE-format research paper on hybrid A\*–Genetic Algorithm path planning for multi-robot systems — and shipping OpenGL simulations and PHP web apps alongside it.
 
-          for fname in ["dist/github-snake.svg", "dist/github-snake-dark.svg"]:
-              if not os.path.exists(fname):
-                  continue
-              with open(fname, "r") as f:
-                  svg = f.read()
+I like work that sits at the boundary between algorithm and visual output — things that are both correct and worth looking at.
 
-              # Count food dots (contribution cells that are non-empty)
-              food_count = len(re.findall(r'class="[^"]*\bcontrib\b[^"]*"', svg))
-              if food_count == 0:
-                  # Fallback: count any colored rect/circle that is not empty
-                  food_count = len(re.findall(r'fill="(?!#161b22|#0d1117)[^"]{4,7}"', svg))
+<br/>
 
-              score_label = f"SCORE  {food_count:04d}"
+---
 
-              # Find SVG viewBox width to position score top-right
-              vb = re.search(r'viewBox="[^"]*"', svg)
-              svg_w = 800
-              if vb:
-                  parts = vb.group().replace('viewBox="', '').replace('"', '').split()
-                  if len(parts) == 4:
-                      svg_w = int(float(parts[2]))
+## Work in progress
 
-              score_svg = f'''
-            <g font-family="monospace" font-size="12" fill="#8B6914">
-              <rect x="{svg_w - 140}" y="8" width="132" height="22" rx="4"
-                    fill="#0d1117" stroke="#3b2f0e" stroke-width="1"/>
-              <text x="{svg_w - 74}" y="23" text-anchor="middle"
-                    letter-spacing="2" font-weight="bold">{score_label}</text>
-            </g>'''
+| Project | Stack | Status |
+|---|---|---|
+| Hybrid A\*–GA Multi-Robot Path Planner | Python · NumPy · Matplotlib | 📝 Research paper |
+| OpenGL Bangladesh Tribute Scene | C++ · OpenGL · GLUT | ✅ Complete |
+| Missile Trajectory Visualization | C++ · OpenGL · GLUT | ✅ Complete |
+| PHP Quiz Web Application | PHP · MySQL · HTML/CSS | ✅ Complete |
+| A\* & DFS Search Agents | Python · Jupyter | ✅ Complete |
 
-              # Inject before closing </svg>
-              svg = svg.replace("</svg>", score_svg + "\n</svg>")
+<br/>
 
-              with open(fname, "w") as f:
-                  f.write(svg)
-              print(f"Patched {fname} — score: {food_count}")
-          EOF
+---
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+## Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,python,php,c,js,html,css,mysql,git,github,vscode,linux&theme=dark&perline=6" />
+</p>
+
+<br/>
+
+---
+
+## GitHub at a glance
+
+<p align="center">
+  <img height="175em" src="https://github-readme-stats.vercel.app/api?username=msadmanarian&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=e2e8f0&text_color=94a3b8&icon_color=64748b&count_private=true"/>
+  <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=msadmanarian&layout=compact&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=e2e8f0&text_color=94a3b8&langs_count=6"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=msadmanarian&hide_border=true&background=0d1117&stroke=1e293b&ring=64748b&fire=94a3b8&currStreakLabel=e2e8f0&sideLabels=94a3b8&dates=475569&currStreakNum=e2e8f0&sideNums=e2e8f0" width="55%"/>
+</p>
+
+<br/>
+
+---
+
+## Contribution activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=msadmanarian&bg_color=0d1117&color=94a3b8&line=475569&point=e2e8f0&area=true&area_color=1e293b&hide_border=true" width="100%"/>
+</p>
+
+<br/>
+
+---
+
+## Snake — eating every commit
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/msadmanarian/msadmanarian/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/msadmanarian/msadmanarian/output/github-snake.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/msadmanarian/msadmanarian/output/github-snake.svg"/>
+  </picture>
+</p>
+
+<br/>
+
+---
+
+## Research highlight
+
+> **Hybrid A\*–Genetic Algorithm for Multi-Robot Path Planning**  
+> Three novel contributions — AEFF (Adaptive Energy-aware Fitness Function), DPSDP (Dynamic Population Size & Diversity Preservation), and EART (Evolutionary Adaptive Restart Trigger) — improving scalability and collision-free navigation in complex environments.  
+> *IEEE-format paper · In progress*
+
+<br/>
+
+---
+
+<p align="center">
+  <a href="https://github.com/msadmanarian"><img src="https://img.shields.io/badge/GitHub-msadmanarian-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
+  &nbsp;
+  <a href="mailto:msadmanarian@gmail.com"><img src="https://img.shields.io/badge/Email-say%20hello-0d1117?style=flat-square&logo=gmail&logoColor=white"/></a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=msadmanarian&style=flat-square&color=0d1117&label=views"/>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:0d1117&height=100&section=footer" width="100%"/>
