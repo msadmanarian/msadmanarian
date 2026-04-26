@@ -10,6 +10,7 @@
 
 <br/>
 
+
 ---
 
 I'm a final-year CSE student at **American International University-Bangladesh**, focused on applied AI, computer graphics, and systems programming. Currently co-authoring an IEEE-format research paper on hybrid A\*–Genetic Algorithm path planning for multi-robot systems — and shipping OpenGL simulations and PHP web apps alongside it.
