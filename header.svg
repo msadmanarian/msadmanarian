@@ -1,0 +1,71 @@
+<svg width="100%" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes rise {
+        from { opacity: 0; transform: translateY(10px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes waveDrift {
+        0%   { d: path("M0,152 C200,136 450,172 700,148 C900,132 1050,155 1200,152 L1200,200 L0,200Z"); }
+        50%  { d: path("M0,148 C200,165 450,136 700,158 C900,170 1050,145 1200,148 L1200,200 L0,200Z"); }
+        100% { d: path("M0,152 C200,136 450,172 700,148 C900,132 1050,155 1200,152 L1200,200 L0,200Z"); }
+      }
+      @keyframes waveDrift2 {
+        0%   { d: path("M0,168 C300,155 600,182 900,162 C1050,153 1150,168 1200,168 L1200,200 L0,200Z"); }
+        50%  { d: path("M0,164 C300,178 600,158 900,175 C1050,182 1150,162 1200,164 L1200,200 L0,200Z"); }
+        100% { d: path("M0,168 C300,155 600,182 900,162 C1050,153 1150,168 1200,168 L1200,200 L0,200Z"); }
+      }
+      .wave1 { animation: waveDrift 6s ease-in-out infinite; }
+      .wave2 { animation: waveDrift2 8s ease-in-out infinite; }
+      .name  { animation: rise 1.2s ease both; }
+      .sub   { animation: rise 1s 0.5s ease both; }
+      .dot   { animation: rise 1s 1s ease both; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="200" fill="#0d1117"/>
+
+  <!-- Subtle dot grid texture -->
+  <g opacity="0.06">
+    <rect x="80"  y="30"  width="2" height="2" fill="#94a3b8" rx="1"/>
+    <rect x="160" y="55"  width="2" height="2" fill="#94a3b8" rx="1"/>
+    <rect x="240" y="30"  width="2" height="2" fill="#94a3b8" rx="1"/>
+    <rect x="320" y="70"  width="2" height="2" fill="#94a3b8" rx="1"/>
+    <rect x="880" y="30"  width="2" height="2" fill="#94a3b8" rx="1"/>
+    <rect x="960" y="55"  width="2" height="2" fill="#94a3b8" rx="1"/>
+    <rect x="1040" y="35" width="2" height="2" fill="#94a3b8" rx="1"/>
+    <rect x="1120" y="65" width="2" height="2" fill="#94a3b8" rx="1"/>
+  </g>
+
+  <!-- Animated waves -->
+  <path class="wave1"
+    d="M0,152 C200,136 450,172 700,148 C900,132 1050,155 1200,152 L1200,200 L0,200Z"
+    fill="#161b22"/>
+  <path class="wave2"
+    d="M0,168 C300,155 600,182 900,162 C1050,153 1150,168 1200,168 L1200,200 L0,200Z"
+    fill="#1a1a2e" opacity="0.9"/>
+
+  <!-- Name -->
+  <text class="name"
+    x="600" y="96"
+    text-anchor="middle"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, sans-serif"
+    font-size="52"
+    font-weight="600"
+    fill="#e2e8f0"
+    letter-spacing="-0.5">Sadman Arian</text>
+
+  <!-- Subtitle -->
+  <text class="sub"
+    x="600" y="130"
+    text-anchor="middle"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, sans-serif"
+    font-size="13"
+    font-weight="400"
+    fill="#475569"
+    letter-spacing="2">COMPUTER SCIENCE AND ENGINEERING  ·  AIUB BANGLADESH</text>
+
+  <!-- Accent line -->
+  <rect class="dot" x="560" y="144" width="80" height="1" rx="1" fill="#334155"/>
+</svg>
