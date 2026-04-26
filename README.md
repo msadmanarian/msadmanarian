@@ -1,3 +1,14 @@
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/msadmanarian/msadmanarian/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/msadmanarian/msadmanarian/output/github-snake.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/msadmanarian/msadmanarian/output/github-snake.svg"/>
+  </picture>
+</p>
+
+<br/>
+
 <img src="header.svg" width="100%"/>
 
 <p align="center">
@@ -65,17 +76,7 @@ I like work that sits at the boundary between algorithm and visual output — th
 
 ---
 
-## Snake — eating every commit
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/msadmanarian/msadmanarian/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/msadmanarian/msadmanarian/output/github-snake.svg"/>
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/msadmanarian/msadmanarian/output/github-snake.svg"/>
-  </picture>
-</p>
-
-<br/>
 
 ---
 
