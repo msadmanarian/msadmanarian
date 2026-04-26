@@ -1,276 +1,90 @@
-<div align="center">
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   ANIMATED HEADER                      -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Sadman%20Arian&fontSize=55&fontColor=ffffff&fontAlignY=40&desc=CSE%20Undergrad%20%7C%20Builder%20%7C%20Researcher&descAlignY=62&descSize=18&animation=fadeIn" width="100%"/>
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   TYPING ANIMATION                     -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=false&random=false&width=600&lines=Computer+Science+%26+Engineering+%40+AIUB;AI+Research+%7C+Multi-Robot+Path+Planning;OpenGL+%7C+C%2B%2B+%7C+Python+%7C+PHP;Creative+Technologist+%26+Problem+Solver;Bangladesh+%F0%9F%87%A7%F0%9F%87%A9+%E2%80%94+Building+the+Future" alt="Typing SVG" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:1a1a2e,100:16213e&height=160&section=header&text=Sadman%20Arian&fontSize=48&fontColor=e2e8f0&desc=Computer%20Science%20%26%20Engineering%20·%20AIUB&descAlignY=72&descSize=16&descColor=94a3b8&animation=fadeIn&fontAlignY=45" width="100%"/>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   PROFILE BADGES                       -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-[![Profile Views](https://komarev.com/ghpvc/?username=msadmanarian&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)](https://github.com/msadmanarian)
-[![GitHub followers](https://img.shields.io/github/followers/msadmanarian?style=for-the-badge&color=7c3aed&labelColor=0d1117&logo=github)](https://github.com/msadmanarian?tab=followers)
-[![Stars](https://img.shields.io/github/stars/msadmanarian?style=for-the-badge&color=7c3aed&labelColor=0d1117&logo=github)](https://github.com/msadmanarian)
-
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   ABOUT ME                             -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" alt="coding gif"/>
-
-## 🧠 About Me
-
-```python
-class SadmanArian:
-    name       = "Md. Sadman Arian"
-    github     = "@msadmanarian"
-    university = "AIUB — CSE, Faculty of Science & Technology"
-    location   = "Dhaka, Bangladesh 🇧🇩"
-    credits    = "~113 / ~130 completed"
-
-    research   = "Hybrid A*–Genetic Algorithm for Multi-Robot Path Planning"
-    interests  = ["Computer Graphics", "AI/ML", "Web Technologies",
-                  "Digital Calligraphy", "DIY Electronics", "Open Source"]
-
-    currently  = ["📝 Co-authoring IEEE research paper",
-                  "🎮 Building OpenGL/C++ simulations",
-                  "🌐 Developing PHP web applications",
-                  "🤖 Studying reinforcement & hybrid search"]
-
-    fun_fact   = "I design SVGs for fun and write Bengali calligraphy ✍️"
-```
-
-<br clear="right"/>
-
----
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   TECH STACK                           -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-## 🛠️ Tech Stack & Tools
-
-<div align="center">
-
-### 💻 Languages
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=for-the-badge&logo=assemblyscript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### ⚙️ Frameworks & Libraries
-![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white)
-![GLUT](https://img.shields.io/badge/GLUT/FreeGLUT-FF6600?style=for-the-badge&logo=opengl&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### 🧰 Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Inkscape](https://img.shields.io/badge/Inkscape-000000?style=for-the-badge&logo=inkscape&logoColor=white)
-![Overleaf](https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=overleaf&logoColor=white)
-
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   GITHUB STATS                         -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=msadmanarian&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=msadmanarian&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=msadmanarian&theme=tokyonight&hide_border=true&background=0d1117&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa" alt="GitHub Streak" width="60%"/>
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   TROPHIES                             -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=msadmanarian&theme=nord&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="GitHub Trophies"/>
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   FEATURED PROJECTS                    -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-| 🔬 Project | 📄 Description | 🛠️ Stack |
-|:---|:---|:---|
-| **Hybrid A\*–GA Path Planner** | Multi-robot path planning with novel AEFF, DPSDP & EART algorithms — IEEE research paper | `Python` `NumPy` `Matplotlib` |
-| **Bangladesh Tribute Scene** | OpenGL 2D scene using DDA, Bresenham & Midpoint Circle drawing algorithms | `C++` `OpenGL` `GLUT` |
-| **Missile Trajectory Sim** | Multi-scene physics-based projectile visualization with animation | `C++` `OpenGL` `GLUT` |
-| **PHP Quiz Application** | Dynamic web quiz app with session management, timer, and scoring | `PHP` `MySQL` `HTML/CSS` |
-| **AI Search Agents** | DFS, BFS & A\* pathfinding implementations with visualization | `Python` `Jupyter` |
-
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   RESEARCH                             -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-## 📚 Current Research
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║   🤖  Hybrid A*–Genetic Algorithm for Multi-Robot Path Planning  ║
-╠══════════════════════════════════════════════════════════════════╣
-║  Novel Contributions:                                            ║
-║  ✦ AEFF  — Adaptive Energy-aware Fitness Function               ║
-║  ✦ DPSDP — Dynamic Population Size & Diversity Preservation      ║
-║  ✦ EART  — Evolutionary Adaptive Restart Trigger                ║
-╠══════════════════════════════════════════════════════════════════╣
-║  Format: IEEE-style academic paper  |  Status: In Progress 📝   ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   ACTIVITY GRAPH                       -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-## 📈 Contribution Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=msadmanarian&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   SNAKE                                -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/msadmanarian/msadmanarian/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/msadmanarian/msadmanarian/output/github-snake.svg" />
-    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/msadmanarian/msadmanarian/output/github-snake.svg" />
-  </picture>
-</div>
-
-> ⚙️ *To enable the snake animation, add a GitHub Actions workflow — see setup guide below.*
-
----
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   CONNECT                              -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-msadmanarian-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/msadmanarian)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/msadmanarian)
-[![Email](https://img.shields.io/badge/Email-Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:msadmanarian@gmail.com)
-[![AIUB](https://img.shields.io/badge/AIUB-Student-003087?style=for-the-badge&logo=academia&logoColor=white)](https://www.aiub.edu)
-
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   QUOTE                                -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-### 💬 Dev Philosophy
-
-> *"First, solve the problem. Then, write the code."* — John Johnson
+<p align="center">
+  <a href="https://github.com/msadmanarian">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=15&duration=4000&pause=1200&color=94A3B8&center=true&vCenter=true&width=500&lines=Building+things+that+think+and+render.;Researching+multi-robot+path+planning.;Writing+clean+C%2B%2B%2C+Python%2C+and+PHP.;Based+in+Dhaka+%E2%80%94+open+to+collaboration." alt="typing"/>
+  </a>
+</p>
 
 <br/>
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer)
+---
 
-</div>
+I'm a final-year CSE student at **American International University-Bangladesh**, focused on applied AI, computer graphics, and systems programming. Currently co-authoring an IEEE-format research paper on hybrid A\*–Genetic Algorithm path planning for multi-robot systems — and shipping OpenGL simulations and PHP web apps alongside it.
+
+I like work that sits at the boundary between algorithm and visual output — things that are both correct and worth looking at.
+
+<br/>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--         🐍 SNAKE SETUP GUIDE (READ & DELETE)           -->
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--
-TO ENABLE THE SNAKE ANIMATION:
+## Work in progress
 
-1. Create this file in your profile repo:
-   .github/workflows/snake.yml
+| Project | Stack | Status |
+|---|---|---|
+| Hybrid A\*–GA Multi-Robot Path Planner | Python · NumPy · Matplotlib | 📝 Research paper |
+| OpenGL Bangladesh Tribute Scene | C++ · OpenGL · GLUT | ✅ Complete |
+| Missile Trajectory Visualization | C++ · OpenGL · GLUT | ✅ Complete |
+| PHP Quiz Web Application | PHP · MySQL · HTML/CSS | ✅ Complete |
+| A\* & DFS Search Agents | Python · Jupyter | ✅ Complete |
 
-2. Paste this content:
+<br/>
 
-name: Generate Snake
-on:
-  schedule: [{ cron: "0 0 * * *" }]
-  workflow_dispatch:
-  push:
-    branches: [main]
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+---
 
-3. Run it once manually from Actions tab.
-   Snake will update daily after that! 🎉
--->
+## Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,python,php,c,js,html,css,mysql,git,github,vscode,linux&theme=dark&perline=6" />
+</p>
+
+<br/>
+
+---
+
+## GitHub at a glance
+
+<p align="center">
+  <img height="175em" src="https://github-readme-stats.vercel.app/api?username=msadmanarian&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=e2e8f0&text_color=94a3b8&icon_color=64748b&count_private=true"/>
+  <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=msadmanarian&layout=compact&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=e2e8f0&text_color=94a3b8&langs_count=6"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=msadmanarian&hide_border=true&background=0d1117&stroke=1e293b&ring=64748b&fire=94a3b8&currStreakLabel=e2e8f0&sideLabels=94a3b8&dates=475569&currStreakNum=e2e8f0&sideNums=e2e8f0" width="55%"/>
+</p>
+
+<br/>
+
+---
+
+## Contribution activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=msadmanarian&bg_color=0d1117&color=94a3b8&line=475569&point=e2e8f0&area=true&area_color=1e293b&hide_border=true" width="100%"/>
+</p>
+
+<br/>
+
+---
+
+## Research highlight
+
+> **Hybrid A\*–Genetic Algorithm for Multi-Robot Path Planning**  
+> Three novel contributions — AEFF (Adaptive Energy-aware Fitness Function), DPSDP (Dynamic Population Size & Diversity Preservation), and EART (Evolutionary Adaptive Restart Trigger) — to improve scalability and collision-free navigation in complex environments.  
+> *IEEE-format paper · In progress*
+
+<br/>
+
+---
+
+<p align="center">
+  <a href="https://github.com/msadmanarian"><img src="https://img.shields.io/badge/GitHub-msadmanarian-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
+  &nbsp;
+  <a href="mailto:msadmanarian@gmail.com"><img src="https://img.shields.io/badge/Email-say%20hello-0d1117?style=flat-square&logo=gmail&logoColor=white"/></a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=msadmanarian&style=flat-square&color=0d1117&label=views"/>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=100&section=footer" width="100%"/>
